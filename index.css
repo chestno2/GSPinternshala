@@ -1,0 +1,53 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+#btn-color
+{
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+      
+        box-shadow:3px 2px px 1px #FF2525 ;  
+}
+
+#hover1:hover
+{
+    opacity: 25%;
+    
+}
+.back2
+{
+    background-image: url("https://st3.depositphotos.com/1558912/19061/i/1600/depositphotos_190618708-stock-photo-italian-food-background-on-white.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 680px;
+}
+.back-img
+{
+    background-image: url("https://s3.envato.com/files/263146694/pasta3_b274.jpg");
+    background-size: cover;
+    height: 430px;
+}
+
+.mobile-menu-container{
+    position: sticky;
+    top: 10px;
+}
+
+.mobile-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8em;
+    background-color: white;
+    transition: all ease-in-out 200ms;
+    width: 100%;
+    position: absolute;
+    margin-top: 1.7em;
+    opacity: 0.9;
+}
+
+.mobile-menu > a{
+    padding: 5px;
+}
